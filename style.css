@@ -1,0 +1,47 @@
+body{
+  text-align:center;
+  background:linear-gradient(#1DE9B6, #FF6D00);
+  background-repeat:no-repeat;
+}
+h1{
+  text-shadow:1px 1px #4A148C;
+  font-size:20px;
+}
+#bio,{
+  padding:20px;
+  font-size:18;
+  text-align:center;
+}
+img{
+  border-radius:50%;
+  width:100px;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.apps:hover{
+    color: purple;
+}
+a{
+    text-decoration: none;
+}
+.contact:hover{
+    color: purple;
+}
+shimmer and shine.img{
+    transition: transform.2s;
+    boarder:10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
